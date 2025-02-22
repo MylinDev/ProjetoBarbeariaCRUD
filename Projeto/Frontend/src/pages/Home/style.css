@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+h1 {
+    color: white;
+    font-size: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, #0c2e8d, #000000);
+    max-width: 50%;
+    width: 400px;
+    margin-bottom: 20px;
+    opacity: 1;
+    & button{
+        border-radius: 30px;
+        background: linear-gradient(0deg, #0212f53b, #fdfdfd);
+        height: 40px;
+        border-color: rgb(124, 32, 32);
+        font-weight: bold;
+        cursor:pointer;
+
+
+    }
+    & button:hover {
+        opacity:0.5;
+        font-size: 14px;
+    }
+    & input {
+        border:1px solid#f8456c;
+        border-radius: 30px;
+        height: 40px;
+        background-color: #ffffff;
+        color:rgb(0, 0, 0);
+        font-size: 16px;
+        padding-left: 10px;
+        outline:none;
+    }
+}
+.card {
+    display:flex;
+    justify-content: space-between;
+    background: linear-gradient(0deg, #000000, #0e033d);
+    margin: 15px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 30px;
+    & p {
+        color:rgb(214, 204, 204);
+        font-weight: bold;
+
+        & span{
+            font-weight: normal;
+        }
+    }
+    & button{
+        background-color: transparent;
+        border:none;
+        cursor:pointer;
+       
+    }
+    & button:hover{
+        opacity: 0.3;
+    }
+}
+.trash-icon {
+  width: 30px; /* Ajuste o tamanho conforme necessário */
+  height: 30px;
+  
+}
