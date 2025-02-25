@@ -4,7 +4,7 @@
 *Tecnologias usadas:Javascript,React,HTML,CSS,NodeJS,ExpressJS,MongoDB,Prisma,Vite.
 
 
-*O projeto consiste com cadastros com Nome,Contato(Telefone e Email)e Serviço.
+*O projeto consiste com cadastros com Nome,Contato(Telefone e Email),e Serviço.
 
 
 *Funções para Criar, Ler, Atualizar e Excluir.
