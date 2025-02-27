@@ -1,4 +1,4 @@
-*Projeto de Cadastro de Usuários para implementar futuros projetos para Barbearias.
+*Projeto de Cadastro de Usuários para implementar futuros projetos em Barbearias.
 
 
 *Tecnologias usadas:Javascript,React,HTML,CSS,NodeJS,ExpressJS,MongoDB,Prisma,Vite.
